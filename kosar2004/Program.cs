@@ -11,7 +11,6 @@ namespace kosar2004
     class Program
     {
         static List<Meccs> meccsek = new List<Meccs>();
-        static Dictionary<string, int> dmeccsek = new Dictionary<string, int>();
         static void MasodikFeladat()
         {
             StreamReader file = new StreamReader("eredmenyek.csv");
