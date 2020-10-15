@@ -19,5 +19,11 @@
             this.Hely = hely;
             this.Ido = ido;
         }
+        public string Atalakit()
+        {
+            return Hazai + " - " + Idegen + " - (" + HPont.ToString() + ") : (" + IPont.ToString() + ")";
+            
+            
+        }
     }
 }
